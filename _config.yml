@@ -32,27 +32,26 @@ color:
 # Footer settings
 footer:
   copyright: Cloud Foundry Days TOKYO
-  location: Japan
-  social:
-  credits: Credits
+#  location:
+#  social:
+#  credits: FUJITSU LTD.
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: compass
-    url: http://cfdays.connpass.com/event/41201/
-  - title: twitter
-    url: http://twitter.com/
-  - title: facebook
-    url:
-  - title: github
-    url: http://github.com/jekyll
-
+#social:
+#  - title: compass
+#    url: http://cfdays.connpass.com/event/41201/
+#  - title: twitter
+#    url: http://twitter.com/
+#  - title: facebook
+#    url:
+#  - title: github
+#    url: http://github.com/jekyll
 
 # Postal address (add as many lines as necessary)
-address:
+#address:
 
 # Credits content
-credits: ''
+#credits: ''
 
 # Build settings
 markdown: kramdown
