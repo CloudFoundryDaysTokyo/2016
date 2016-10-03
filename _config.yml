@@ -1,6 +1,7 @@
 # Site settings
 title: Cloud Foundry DAYS TOKYO 2016
 email:
+baseurl: https://cloudfoundrydaystokyo.github.io/2016
 url: https://cloudfoundrydaystokyo.github.io/2016
 description: ""
 skills: ""
