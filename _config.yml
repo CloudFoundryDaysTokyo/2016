@@ -1,5 +1,5 @@
 # Site settings
-title: Cloud Foundry DAYS TOKYO 2016
+title: Cloud Foundry DAYS IN TOKYO
 email:
 baseurl: "/2016"
 url: "https://cloudfoundrydaystokyo.github.io/2016"
@@ -32,7 +32,7 @@ color:
 
 # Footer settings
 footer:
-  copyright: Cloud Foundry Days TOKYO
+  copyright: Cloud Foundry Days in TOKYO
 #  location:
 #  social:
 #  credits: FUJITSU LTD.
