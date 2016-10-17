@@ -29,7 +29,7 @@
             <tr>
               <th scope="row">13:05 - 13:30</th>
               <td>Making the Cloud Business Ready</td>
-              <td>Chip Childers (Cloud Foundry Foundation)</td>
+              <td><a href="JavaScript:void(0)" onclick="popWindow('img/chipchilders.png', 'Chip Childers (Cloud Foundry Foundation)', 'Initially, cloud technologies were all about the infrastructure. But infrastructure is a funny thing. Because infrastructure becomes a commodity. This is why we\'re at the edge of Cloud hitting its peak - and its first best use - via the platform layer. Chip Childers will discuss the future of cloud technologies, what drives enterprises to adopt these technologies in droves, and which development languages matter now, more than ever - and why.'); return false">Chip Childers</a></td>
             </tr>
             <tr>
               <th scope="row">13:30 - 13:50</th>
@@ -93,5 +93,40 @@
             </tr>
       </table>
     </div>
+    <br>
+
+    <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            <h4 class="modal-title" id="modalLabel"></h4>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-3">
+                <img src="" id="imagepreview" class="img-responsive" >
+              </div>
+              <div class="col-xs-9" id="presentation" "text-left">
+              </div>
+            </div>
+         </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function popWindow(source, label, content) {
+        alert(source);
+        $('#imagepreview').attr('src', source);
+        $('#modalLabel').html(label);
+        $('#presentation').html(content);
+        $('#imagemodal').modal('show');
+      }
+    </script>
+
   </div>
 </section>
